@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngIf="countriesByMedals">
+    <div style="display: block">
+      <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType" [colors]="chartColors" (chartClick)="chartClicked($event)"></canvas>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>
+
+</div>

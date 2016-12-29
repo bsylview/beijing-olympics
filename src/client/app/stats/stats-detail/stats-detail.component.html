@@ -1,0 +1,22 @@
+
+<div class="container">
+  <h2  style="text-align:center">{{currentCountry}}</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th style="background-color: #d9edf7">Country</th>
+        <th>Athlete</th>
+        <th>Event</th>
+        <th>Medal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let medalist of medalists">
+        <td style="background-color: #d9edf7" data-label="Country">{{medalist.country}}</td>
+        <td data-label="Athlete">{{medalist.athlete}}</td>
+        <td data-label="Event">{{medalist.event}}</td>
+        <td data-label="Medal">{{medalist.medal}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
