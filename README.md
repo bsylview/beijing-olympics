@@ -1,8 +1,6 @@
 # Introduction
-This mini project was developed from the angular-seed template
+This mini project was developed starting from the angular-seed template
 ```bash
-$ git clone --depth 1 https://github.com/mgechev/angular-seed.git
-
 # How to start
 
 # install the project's dependencies
@@ -64,14 +62,6 @@ $ npm start -- --env-config ENV_NAME
 ```
 
 Currently the `ENV_NAME`s are `dev`, `prod`, `staging`, but you can simply add a different file `"ENV_NAME.ts".` file in order to alter extra such environments.
-
-# Tools documentation
-
-A documentation of the provided tools can be found in [tools/README.md](tools/README.md).
-
-# How to extend?
-
-Visit the [Wiki page](https://github.com/mgechev/angular-seed/wiki) of the project.
 
 
 # Running tests
